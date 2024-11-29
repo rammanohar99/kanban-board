@@ -1,0 +1,171 @@
+/* Board.css */
+
+/* General styling for the Kanban board */
+.kanban-board {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Header for sorting and grouping controls */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header select {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Column styles */
+.column {
+    width: 24%;
+    background-color: #f4f5f7;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.column h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.column .ticket {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+/* Icon-based status markers and action buttons */
+.icon {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Status icons */
+.icon.todo {
+    background-image: url('../styles/icons_FEtask/To-do.svg');
+}
+
+.icon.in-progress {
+    background-image: url('../styles/icons_FEtask/in-progress.svg');
+}
+
+.icon.done {
+    background-image: url('../styles/icons_FEtask/Done.svg');
+}
+
+.icon.cancelled {
+    background-image: url('../styles/icons_FEtask/Cancelled.svg');
+}
+
+.icon.backlog {
+    background-image: url('../styles/icons_FEtask/Backlog.svg');
+}
+
+/* Priority icons */
+.icon.low-priority {
+    background-image: url('../styles/icons_FEtask/Img - Low Priority.svg');
+}
+
+.icon.medium-priority {
+    background-image: url('../styles/icons_FEtask/Img - Medium Priority.svg');
+}
+
+.icon.high-priority {
+    background-image: url('../styles/icons_FEtask/Img - High Priority.svg');
+}
+
+.icon.urgent-priority {
+    background-image: url('../styles/icons_FEtask/SVG - Urgent Priority colour.svg');
+}
+
+.icon.urgent-priority-grey {
+    background-image: url('../styles/icons_FEtask/SVG - Urgent Priority grey.svg');
+}
+
+/* Dropdown icons */
+.icon.display {
+    background-image: url('../styles/icons_FEtask/Display.svg');
+}
+
+.icon.down {
+    background-image: url('../styles/icons_FEtask/down.svg');
+}
+
+/* Add button icon */
+.icon.add {
+    background-image: url('../styles/icons_FEtask/add.svg');
+}
+
+/* Three-dot menu icon */
+.icon.menu {
+    background-image: url('../styles/icons_FEtask/3 dot menu.svg');
+}
+
+/* Grouping and sorting controls */
+header div {
+    display: inline-flex;
+    align-items: center;
+}
+
+header label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+header select {
+    margin-right: 15px;
+}
+
+/* Ticket header styling */
+.ticket-header {
+    display: flex;
+    align-items: center;
+}
+
+.ticket-header .icon {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Ticket Title */
+.ticket-header h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.ticket-header .priority-label {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Specific grouping title */
+.group-title {
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+

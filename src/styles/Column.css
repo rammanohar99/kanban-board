@@ -1,0 +1,51 @@
+/* Ensure columns are aligned perfectly without any gaps */
+/* Ensure columns are aligned perfectly without wrapping */
+.columns {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    gap: 0; /* Remove gaps between columns */
+    width: 100%; /* Span the full width of the parent container */
+    padding: 0; /* Remove padding around columns */
+    margin: 0; /* Remove any default margins */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    box-sizing: border-box; /* Include padding and border in width */
+    align-items: stretch; /* Align all columns uniformly */
+}
+
+/* Ensure all columns fit perfectly side by side */
+.column {
+    flex: 0 0 20%; /* Make each column exactly 20% of the container width for 5 columns */
+    background-color: #f4f5f7;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box; /* Include padding and border in width */
+    border: 1px solid #ddd; /* Optional: Add a border for visibility */
+    margin: 0; /* Remove any column margin */
+    min-width: 20%; /* Ensure consistent width */
+}
+
+
+/* Ensure titles don't add unintended space */
+.column h2 {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 10px 0; /* Only margin below title */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap; /* Prevent title text from wrapping */
+}
+
+.column h2 .icon {
+    margin-right: 8px;
+}
+
+/* Parent container adjustments to ensure no space leakage */
+.kanban-board {
+    margin: 0; /* Remove margin on board */
+    padding: 0; /* Remove padding on board */
+    box-sizing: border-box; /* Standardize box model */
+    overflow-x: hidden; /* Optional: Prevent parent scroll leakage */
+}

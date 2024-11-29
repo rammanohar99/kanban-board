@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #f5f5f5;
+  }
+
+  .dropdown {
+    display: flex;
+    align-items: center;
+  }
+
+  .dropdown label {
+    margin-right: 5px;
+  }
