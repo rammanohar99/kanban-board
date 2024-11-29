@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/kanban-board/static/css/main.b80e0f61.css",
+    "main.js": "/kanban-board/static/js/main.c528dc1d.js",
+    "static/js/453.f0f88b0d.chunk.js": "/kanban-board/static/js/453.f0f88b0d.chunk.js",
+    "static/media/Display.svg": "/kanban-board/static/media/Display.0168095040354204011b.svg",
+    "static/media/Cancelled.svg": "/kanban-board/static/media/Cancelled.360749f102ea2ac68b58.svg",
+    "static/media/3 dot menu.svg": "/kanban-board/static/media/3 dot menu.4caedb468f68b915626e.svg",
+    "static/media/Done.svg": "/kanban-board/static/media/Done.a5158827c6345b2f141f.svg",
+    "static/media/down.svg": "/kanban-board/static/media/down.b19d146ddbaad572f0f5.svg",
+    "index.html": "/kanban-board/index.html",
+    "static/media/Img - Low Priority.svg": "/kanban-board/static/media/Img - Low Priority.491e21f9000cb90112de.svg",
+    "static/media/Img - Medium Priority.svg": "/kanban-board/static/media/Img - Medium Priority.83775665307e977d62e9.svg",
+    "static/media/Img - High Priority.svg": "/kanban-board/static/media/Img - High Priority.5024fd0d163cb13c95f2.svg",
+    "static/media/SVG - Urgent Priority grey.svg": "/kanban-board/static/media/SVG - Urgent Priority grey.45cb3c374d391aeb2ee4.svg",
+    "static/media/add.svg": "/kanban-board/static/media/add.f84a7335f3fac0026df6.svg",
+    "static/media/in-progress.svg": "/kanban-board/static/media/in-progress.d4beb72fbc94f765259f.svg",
+    "static/media/SVG - Urgent Priority colour.svg": "/kanban-board/static/media/SVG - Urgent Priority colour.9b67f75d5459d4d66573.svg",
+    "static/media/Backlog.svg": "/kanban-board/static/media/Backlog.97adf3356b7d2e775ef5.svg",
+    "static/media/To-do.svg": "/kanban-board/static/media/To-do.c01d92afcffeef58b2cd.svg",
+    "main.b80e0f61.css.map": "/kanban-board/static/css/main.b80e0f61.css.map",
+    "main.c528dc1d.js.map": "/kanban-board/static/js/main.c528dc1d.js.map",
+    "453.f0f88b0d.chunk.js.map": "/kanban-board/static/js/453.f0f88b0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b80e0f61.css",
+    "static/js/main.c528dc1d.js"
+  ]
+}
